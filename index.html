@@ -55,9 +55,15 @@
         <a href="https://github.com/arish14" class="twitter"><i class="bx bxl-github"></i></a>
         <a href="https://www.linkedin.com/in/arishbhayani/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
+      <button onclick="openResume()">View Resume</button>
     </div>
   </section><!-- End Hero -->
-
+  <script>
+    function openResume() {
+        // Replace 'resume.html' with the actual filename or path of your resume HTML file
+        window.open('assets/resume.pdf', '_blank');
+    }
+</script>
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -76,7 +82,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Data Analyst &amp; Software Developer.</h3>
             <p class="fst-italic">
-              I'm Arish Bhayani, a results-driven Data Analyst and Engineer with a Master's degree (GPA: 3.67) from RIT. Specializing in Financial Data, I excelled in Python scripting and visualization. At Conversenow, I enhanced AI speech recognition by 80%, achieved a 96% AI close rate through Looker, and optimized AWS data engineering for Yahoo Finance, reducing processing time by 30% and improving efficiency by 40%. My portfolio reflects a diverse skill set in data engineering, analytics, and visualization, showcasing a proven track record of process optimization and efficiency enhancement. I'm eager to contribute my skills to future data endeavors.
+              I'm Arish Bhayani, a results-driven Data Analyst and Engineer with a Master's degree (GPA: 3.67) from RIT. Specializing in visualizing Data, I excelled in Python scripting and visualization. At Conversenow, I enhanced AI speech recognition by 80%, achieved a 96% AI close rate through Looker, and optimized AWS data engineering for Yahoo Finance, reducing processing time by 30% and improving efficiency by 40%. My portfolio reflects a diverse skill set in data engineering, analytics, and visualization, showcasing a proven track record of process optimization and efficiency enhancement. I'm eager to contribute my skills to future data endeavors.
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -190,9 +196,8 @@
           <div class="skills-categories col-lg-3">
             <h4>Cloud Technologies</h4>
             <ul>
-              <li>Google BigQuery</li>
+              <li>Google Cloud Platform</li>
               <li>AWS(S3,EC2,Glue,Lambda)</li>
-              <li>Snowflake</li>
             </ul>
           </div>
         </div>
@@ -231,18 +236,30 @@
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
+              <h4>Data Analyst Co-op</h4>
+              <h5>Jan 2024 - Current</h5>
+              <p><em>Rochester Institute of Technology, NY </em></p>
+              <ul>
+                <li>Implemented and led meticulous data cleaning efforts using Microsoft Excel, reduced errors by 25% for a seamless product launch.</li>
+                <li> Engineered efficient workflows utilizing Microsoft Visio and Scribe AI, boosted productivity by 30% and ensured smooth coordination among 20+ in‑charges.</li>
+                <li>Created PowerBI dashboards to track 200+ financial KPIs across departments, assisting decision makers with monthly budget
+                  analysis</li>
+                <li>Elevated operational standards by crafting, implementing, and effectively storytelling detailed SOPs, resulting in a remarkable 40% increase in quality adherence.
+                </li>
+              </ul>
+            </div>
+            <div class="resume-item">
               <h4>Data Analyst</h4>
               <h5>Jan 2023 - Jan 2024</h5>
               <p><em>Rochester Institute of Technology, NY </em></p>
               <ul>
-                <li>Spearheaded the management of extensive, intricate data sets using Python and Pandas, resulting in a monthly time savings of 10+
-                  hours for 25 RIT departments</li>
-                <li> Automated monthly reports using Excel, VBA, and Python, achieving a 30% reduction in report generation time. Met
-                  functional/non‑functional business requirements, enabling a comprehensive financial analysis across divisions</li>
-                <li>Created PowerBI dashboards to track 200+ financial KPIs across departments, assisting decision makers with monthly budget
-                  analysis</li>
-                <li>Exclusively managed the end‑to‑end process of designing, maintaining, and presenting PowerBI dashboards, leading to a 25% boost
-                  in cross‑functional team data analysis efficiency</li>
+                <li>Pioneered automated solutions leveraging Python and Pandas for smooth handling of multifaceted data, unlocking 10+ hours in productivity gains per month across 25 RIT departments.</li>
+                <li> Automated monthly financial reports using Excel, VBA, and Python, reducing generation time by 30% while meeting all key business requirements and enabling enterprise‑wide financial analysis.
+                </li>
+                <li>Created PowerBI dashboards to track 200+ financial KPIs across departments, assisting decision makers with monthly budget analysis.
+                </li>
+                <li>Exclusively managed the end‑to‑end process of designing, maintaining, and presenting PowerBI dashboards, leading to a 25% boost in cross‑functional team data analysis efficiency.
+                </li>
               </ul>
             </div>
             <div class="resume-item">
@@ -250,13 +267,11 @@
               <h5>Jul 2022 - Dec 2022</h5>
               <p><em>Conversenow Technologies INC., NY</em></p>
               <ul>
-                <li>Employed Google Cloud for ETL‑driven insights, enhancing AI order monitoring for 10+ restaurants with dynamic visualization in
-                  Google Data Studio</li>
-                <li>Enhanced AI speech recognition accuracy by 80% through optimized dashboards, visualized using Metabase and powered by
-                  BigQuery on Google Cloud data</li>
-                <li>Achieved 96% AI close rates by visualizing latency data in Looker, extracting insights from Snowflake DB with DBT files</li>
-                <li>Managed the data preparation dashboard, collaborating with cross‑functional Agile teams and the AI‑Research Team, leading to an
-                  87% accuracy increase for NLU models</li>
+                <li>Boosted order monitoring AI accuracy for 10+ restaurant clients by building ETL automation on Google Cloud Platform and creating dynamic dashboards in Google Data Studio./li>
+                <li>Enhanced AI speech recognition accuracy by 80% through optimized dashboards, visualized using Metabase and powered by BigQuery on Google Cloud Platform.</li>
+                <li>Achieved 96% AI close rates by visualizing latency data in Looker, extracting insights from Snowflake DB with DBT files.
+                </li>
+                <li>Led data dashboard creation efforts using SQL and Google Analytics, collaborating cross‑functionally with Agile teams and AI researchers to enhance data preparation, increasing NLU model accuracy by 87%.</li>
               </ul>
             </div>
           </div>
